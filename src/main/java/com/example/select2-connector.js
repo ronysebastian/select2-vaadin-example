@@ -8,8 +8,7 @@ window.com_example_Select2Component = function () {
     });
 
     var self = this;
-    parentElement.on("change", function(e) {
+    parentElement.on("change", function (e) {
         self.onChange(e.val);
     });
-
 }
